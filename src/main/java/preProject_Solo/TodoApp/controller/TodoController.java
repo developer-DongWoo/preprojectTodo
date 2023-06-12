@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TodoController {
     @GetMapping("/")
     public String helloWorld(){
-        String test = "tste";
         return "To-do Application !";
     }
 }
